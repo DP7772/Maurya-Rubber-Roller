@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Maurya Rubber Roller</title>
+    <style>
+       *{
+           margin:0px;
+           padding:0px;
+       } 
+       
+       .bar{
+           width:100%;
+           height:70px;
+           box-sizing:border-box;
+           background-color:black;
+           position:fixed;
+           top:0px;
+       }
+        
+        .home{
+            width:20%;
+            height:70px;
+            box-sizing:border-box;
+            text-align:center;
+            padding-top:10px;
+            font-size:20px;
+            font-weight:bold;
+            float:left;
+            
+            
+        }
+        
+        .home:hover{
+            background-color:red;
+                     color:black; color:black; transition:0.5s;
+                     font-size:22px;
+                     padding-top:8px;
+         border-radius:5px;
+        }
+        
+        a{
+            color:white;
+            text-decoration:none;
+        }
+        
+        .product{
+            width:20%;
+            height:70px;
+            box-sizing:border-box;
+            text-align:center;
+            padding-top:10px;
+            font-size:20px;
+            font-weight:bold;
+            float:left;
+            color:white;
+            
+        }
+        
+        .product:hover{
+            background-color:red;
+            color:black;
+            transition:0.5s;
+            font-size:22px;
+            padding-top:8px;
+            border-radius:5px;
+            
+        }
+        
+        .service{
+            width:20%;
+            height:70px;
+            box-sizing:border-box;
+            text-align:center;
+            padding-top:10px;
+            font-size:20px;
+            font-weight:bold;
+            float:left;
+            color:white;
+            
+        }
+        
+        .service:hover{
+            background-color:red;
+            color:black;
+            transition:0.5s;
+            font-size:22px;
+            padding-top:8px;
+            border-radius:5px;
+        }
+        
+        .about{
+            width:20%;
+            height:70px;
+            box-sizing:border-box;
+            text-align:center;
+            padding-top:10px;
+            font-size:20px;
+            font-weight:bold;
+            float:left;
+            color:white;
+            
+        }
+        
+        .about:hover{
+            background-color:red;
+            color:black;
+            transition:0.5s;
+            font-size:22px;
+            padding-top:8px;
+            border-radius:5px;
+        }
+        
+        .contact{
+            width:20%;
+            height:70px;
+            box-sizing:border-box;
+            text-align:center;
+            padding-top:10px;
+            font-size:20px;
+            font-weight:bold;
+            float:left;
+            color:white;
+            
+        }
+        
+        .contact:hover{
+            background-color:red;
+            color:black;
+            transition:0.5s;
+            font-size:22px;
+            padding-top:8px;
+            border-radius:5px;
+        }
+        
+        .heading{
+            
+            width:100%;
+            height:250px;
+            margin-top:70px;
+           float:left; background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOFfj2l7MnIbBZJUbS-IDmD2ep9R769tdlJWwAEPUVjSMd4NQPQrfnfKsQH9JyOqlV9JPkCwoLcd_fDj5Ut3dF7-zNjveZWcvMgrAEPhiPBy6ainJZZ_bKFBkO0IEkQicYwJoTHc4rnr-5-wGwSe0hc6TuSr9OMybEeRSo568N9GKpp5oC61DHPa8mvmY/s320/062dbd61-b56d-4f0d-a045-8a5b789175e6.jpeg);
+            
+            background-size:cover;
+            
+            
+        }
+        
+        .maurya{
+            font-size:5vw;
+            font-weight:bold;
+            padding:50px 0px 0px 170px;
+            color:#ff5e00;
+        }
+        
+        .where{
+            font-size:3vw;
+            font-weight:bold;
+            padding:8px 0px 0px 205px;
+            color:#ceff2a;
+        }
+        
+        .mrranimation {
+            width:100%;
+            height:900px;
+            box-sizing:border-box;
+            float:left;
+            background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPRGpeRyVNiKHHXjunhc-VGY9v_VGUSg_lwSmuJtuPjIFwM-z6gOhnntsXqwrNNCvJgPFHRTUrQvPJh8aCXrx6Na5u5xF-GUhohUKrMRfNdgRpWRlNDWqFYXYDR93Q22kO8GJX7nQqa3u22d9ms9DL4f1DVY7WjVrm2kXLOBiSe-7lF1Fy0xY0VayooD8/s320/a8011104-9606-4288-ab14-57a38ae0588c.jpeg);
+            background-size:100% 900px;
+            -webkit-animation:image1 8s linear infinite;
+            -o-animation:image1 8s linear infinite;
+            -moz-animation:image1 8s linear infinite;
+            animation:image1 8s linear infinite;
+     
+        }
+        
+        @-webkit-keyframes image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPRGpeRyVNiKHHXjunhc-VGY9v_VGUSg_lwSmuJtuPjIFwM-z6gOhnntsXqwrNNCvJgPFHRTUrQvPJh8aCXrx6Na5u5xF-GUhohUKrMRfNdgRpWRlNDWqFYXYDR93Q22kO8GJX7nQqa3u22d9ms9DL4f1DVY7WjVrm2kXLOBiSe-7lF1Fy0xY0VayooD8/s320/a8011104-9606-4288-ab14-57a38ae0588c.jpeg);
+            background-size:100% 900px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7cQJDdIypQpMLOnciMobytTaAYXNjKSQtCHsLc_pl34eUSIxEFaUCMFy3SjaxbCBHkWAuf1OhhD9ESgT6ioeOFxuhZP1nsOo4axFiL8vd-bHJ7h1MvNbV_JXD-nsOM09jd38ppFpvjVkrkxFl_hyP7mGhoM6fgusa3yCGz7eu0X6UIJY-8DGIaG1WWf8/s320/c7d3ef16-7638-4ce9-a1ea-ad6cdb65dfb8.jpeg);
+                background-size:100% 900px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQL9T6ivz1JALouBnHowouWewkZuK3Rw1zydsBhs4YnDsqcd8Bstn5BT2lSXP5qeYNXpls-W7zVwiwcq1vu-9IHjGhLVthMXsPOcqBlHUHq019Jl6gXGCa89fh-jNl4feUmjMj2WyhGRTKjwDxzkQnNsjYr9G4oMYPOH3BCYGsHH2zBMKUhAkVv0DYA9o/w320-h320/ce94150e-d32c-460e-8914-7dd855ce124b.jpeg);
+               background-size:100% 900px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUgZOMRNc2O1uaO_0xYyi9ZZL07b8slRqML6NQITbuwx2cmj7n3nrsJ5dIIFtN3VsX4ePx4-Ni03NLTdm5PL0MzqMc51iNGTQfsVcM9_7VbF0CnUJge795bqe89MFVOMRb_9DxaNt-FcRJdtQa2rngQbnm1PsI9GFNAinQpllLfZ7NZjnkvz-JkhT4CPI/s320/83299e6b-1c00-4118-9693-e2ec7375fb0a.jpeg);
+               background-size:100% 900px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7M_Jx2e48mrK1s6EjruRHKf_zMPE41oGs0XliLGQVhOUdifvQbd-uP3tDPHW0rPBWY4IeEknajuU2-QJELzVmRH4K2zFLHAirCNU0anBUJ1EDv4N5I0wLgvXWVs6Kzo_F-Tpr3Jzcal8zHTCg8TPpeY5e1IfM81EC8q9TsQRuUtH9_ZzGbAzCrJEJG0o/s320/849f9b98-9f01-4ff6-a918-5ceda2b1972f.jpeg);
+               background-size:100% 900px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGbc0bNFTu_0ivXf0Z9FhVodsdP5JvfqPuRyF0e2L-UxD24H9H0dmNICjnxaoCdfO2MzMGFIMSJ3X45L8B6WV6MMdvl21MLgQSexzABg5ZTmOxFEkFNPG_TzV8vU2AQvbMFI-kza24bUX9wh8fU6IrQ36NRcUJ9Yr1YPhDQTrLmylQH2VWB3l-zKlzUXc/s320/95cad996-4dd4-4031-a08a-5c27710938df.jpeg);
+               background-size:100% 900px;
+           }
+           
+           
+        }
+       
+       @-o-keyframes image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPRGpeRyVNiKHHXjunhc-VGY9v_VGUSg_lwSmuJtuPjIFwM-z6gOhnntsXqwrNNCvJgPFHRTUrQvPJh8aCXrx6Na5u5xF-GUhohUKrMRfNdgRpWRlNDWqFYXYDR93Q22kO8GJX7nQqa3u22d9ms9DL4f1DVY7WjVrm2kXLOBiSe-7lF1Fy0xY0VayooD8/s320/a8011104-9606-4288-ab14-57a38ae0588c.jpeg);
+            background-size:100% 900px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7cQJDdIypQpMLOnciMobytTaAYXNjKSQtCHsLc_pl34eUSIxEFaUCMFy3SjaxbCBHkWAuf1OhhD9ESgT6ioeOFxuhZP1nsOo4axFiL8vd-bHJ7h1MvNbV_JXD-nsOM09jd38ppFpvjVkrkxFl_hyP7mGhoM6fgusa3yCGz7eu0X6UIJY-8DGIaG1WWf8/s320/c7d3ef16-7638-4ce9-a1ea-ad6cdb65dfb8.jpeg);
+                background-size:100% 900px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQL9T6ivz1JALouBnHowouWewkZuK3Rw1zydsBhs4YnDsqcd8Bstn5BT2lSXP5qeYNXpls-W7zVwiwcq1vu-9IHjGhLVthMXsPOcqBlHUHq019Jl6gXGCa89fh-jNl4feUmjMj2WyhGRTKjwDxzkQnNsjYr9G4oMYPOH3BCYGsHH2zBMKUhAkVv0DYA9o/w320-h320/ce94150e-d32c-460e-8914-7dd855ce124b.jpeg);
+               background-size:100% 900px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUgZOMRNc2O1uaO_0xYyi9ZZL07b8slRqML6NQITbuwx2cmj7n3nrsJ5dIIFtN3VsX4ePx4-Ni03NLTdm5PL0MzqMc51iNGTQfsVcM9_7VbF0CnUJge795bqe89MFVOMRb_9DxaNt-FcRJdtQa2rngQbnm1PsI9GFNAinQpllLfZ7NZjnkvz-JkhT4CPI/s320/83299e6b-1c00-4118-9693-e2ec7375fb0a.jpeg);
+               background-size:100% 900px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7M_Jx2e48mrK1s6EjruRHKf_zMPE41oGs0XliLGQVhOUdifvQbd-uP3tDPHW0rPBWY4IeEknajuU2-QJELzVmRH4K2zFLHAirCNU0anBUJ1EDv4N5I0wLgvXWVs6Kzo_F-Tpr3Jzcal8zHTCg8TPpeY5e1IfM81EC8q9TsQRuUtH9_ZzGbAzCrJEJG0o/s320/849f9b98-9f01-4ff6-a918-5ceda2b1972f.jpeg);
+               background-size:100% 900px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGbc0bNFTu_0ivXf0Z9FhVodsdP5JvfqPuRyF0e2L-UxD24H9H0dmNICjnxaoCdfO2MzMGFIMSJ3X45L8B6WV6MMdvl21MLgQSexzABg5ZTmOxFEkFNPG_TzV8vU2AQvbMFI-kza24bUX9wh8fU6IrQ36NRcUJ9Yr1YPhDQTrLmylQH2VWB3l-zKlzUXc/s320/95cad996-4dd4-4031-a08a-5c27710938df.jpeg);
+               background-size:100% 900px;
+           }
+           
+           
+        }
+       
+       @-moz-keyframes image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPRGpeRyVNiKHHXjunhc-VGY9v_VGUSg_lwSmuJtuPjIFwM-z6gOhnntsXqwrNNCvJgPFHRTUrQvPJh8aCXrx6Na5u5xF-GUhohUKrMRfNdgRpWRlNDWqFYXYDR93Q22kO8GJX7nQqa3u22d9ms9DL4f1DVY7WjVrm2kXLOBiSe-7lF1Fy0xY0VayooD8/s320/a8011104-9606-4288-ab14-57a38ae0588c.jpeg);
+            background-size:100% 900px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7cQJDdIypQpMLOnciMobytTaAYXNjKSQtCHsLc_pl34eUSIxEFaUCMFy3SjaxbCBHkWAuf1OhhD9ESgT6ioeOFxuhZP1nsOo4axFiL8vd-bHJ7h1MvNbV_JXD-nsOM09jd38ppFpvjVkrkxFl_hyP7mGhoM6fgusa3yCGz7eu0X6UIJY-8DGIaG1WWf8/s320/c7d3ef16-7638-4ce9-a1ea-ad6cdb65dfb8.jpeg);
+                background-size:100% 900px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQL9T6ivz1JALouBnHowouWewkZuK3Rw1zydsBhs4YnDsqcd8Bstn5BT2lSXP5qeYNXpls-W7zVwiwcq1vu-9IHjGhLVthMXsPOcqBlHUHq019Jl6gXGCa89fh-jNl4feUmjMj2WyhGRTKjwDxzkQnNsjYr9G4oMYPOH3BCYGsHH2zBMKUhAkVv0DYA9o/w320-h320/ce94150e-d32c-460e-8914-7dd855ce124b.jpeg);
+               background-size:100% 900px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUgZOMRNc2O1uaO_0xYyi9ZZL07b8slRqML6NQITbuwx2cmj7n3nrsJ5dIIFtN3VsX4ePx4-Ni03NLTdm5PL0MzqMc51iNGTQfsVcM9_7VbF0CnUJge795bqe89MFVOMRb_9DxaNt-FcRJdtQa2rngQbnm1PsI9GFNAinQpllLfZ7NZjnkvz-JkhT4CPI/s320/83299e6b-1c00-4118-9693-e2ec7375fb0a.jpeg);
+               background-size:100% 900px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7M_Jx2e48mrK1s6EjruRHKf_zMPE41oGs0XliLGQVhOUdifvQbd-uP3tDPHW0rPBWY4IeEknajuU2-QJELzVmRH4K2zFLHAirCNU0anBUJ1EDv4N5I0wLgvXWVs6Kzo_F-Tpr3Jzcal8zHTCg8TPpeY5e1IfM81EC8q9TsQRuUtH9_ZzGbAzCrJEJG0o/s320/849f9b98-9f01-4ff6-a918-5ceda2b1972f.jpeg);
+               background-size:100% 900px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGbc0bNFTu_0ivXf0Z9FhVodsdP5JvfqPuRyF0e2L-UxD24H9H0dmNICjnxaoCdfO2MzMGFIMSJ3X45L8B6WV6MMdvl21MLgQSexzABg5ZTmOxFEkFNPG_TzV8vU2AQvbMFI-kza24bUX9wh8fU6IrQ36NRcUJ9Yr1YPhDQTrLmylQH2VWB3l-zKlzUXc/s320/95cad996-4dd4-4031-a08a-5c27710938df.jpeg);
+               background-size:100% 900px;
+           }
+           
+           
+        }
+       
+        
+        @keyframes image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPRGpeRyVNiKHHXjunhc-VGY9v_VGUSg_lwSmuJtuPjIFwM-z6gOhnntsXqwrNNCvJgPFHRTUrQvPJh8aCXrx6Na5u5xF-GUhohUKrMRfNdgRpWRlNDWqFYXYDR93Q22kO8GJX7nQqa3u22d9ms9DL4f1DVY7WjVrm2kXLOBiSe-7lF1Fy0xY0VayooD8/s320/a8011104-9606-4288-ab14-57a38ae0588c.jpeg);
+            background-size:100% 900px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7cQJDdIypQpMLOnciMobytTaAYXNjKSQtCHsLc_pl34eUSIxEFaUCMFy3SjaxbCBHkWAuf1OhhD9ESgT6ioeOFxuhZP1nsOo4axFiL8vd-bHJ7h1MvNbV_JXD-nsOM09jd38ppFpvjVkrkxFl_hyP7mGhoM6fgusa3yCGz7eu0X6UIJY-8DGIaG1WWf8/s320/c7d3ef16-7638-4ce9-a1ea-ad6cdb65dfb8.jpeg);
+                background-size:100% 900px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQL9T6ivz1JALouBnHowouWewkZuK3Rw1zydsBhs4YnDsqcd8Bstn5BT2lSXP5qeYNXpls-W7zVwiwcq1vu-9IHjGhLVthMXsPOcqBlHUHq019Jl6gXGCa89fh-jNl4feUmjMj2WyhGRTKjwDxzkQnNsjYr9G4oMYPOH3BCYGsHH2zBMKUhAkVv0DYA9o/w320-h320/ce94150e-d32c-460e-8914-7dd855ce124b.jpeg);
+               background-size:100% 900px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUgZOMRNc2O1uaO_0xYyi9ZZL07b8slRqML6NQITbuwx2cmj7n3nrsJ5dIIFtN3VsX4ePx4-Ni03NLTdm5PL0MzqMc51iNGTQfsVcM9_7VbF0CnUJge795bqe89MFVOMRb_9DxaNt-FcRJdtQa2rngQbnm1PsI9GFNAinQpllLfZ7NZjnkvz-JkhT4CPI/s320/83299e6b-1c00-4118-9693-e2ec7375fb0a.jpeg);
+               background-size:100% 900px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7M_Jx2e48mrK1s6EjruRHKf_zMPE41oGs0XliLGQVhOUdifvQbd-uP3tDPHW0rPBWY4IeEknajuU2-QJELzVmRH4K2zFLHAirCNU0anBUJ1EDv4N5I0wLgvXWVs6Kzo_F-Tpr3Jzcal8zHTCg8TPpeY5e1IfM81EC8q9TsQRuUtH9_ZzGbAzCrJEJG0o/s320/849f9b98-9f01-4ff6-a918-5ceda2b1972f.jpeg);
+               background-size:100% 900px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGbc0bNFTu_0ivXf0Z9FhVodsdP5JvfqPuRyF0e2L-UxD24H9H0dmNICjnxaoCdfO2MzMGFIMSJ3X45L8B6WV6MMdvl21MLgQSexzABg5ZTmOxFEkFNPG_TzV8vU2AQvbMFI-kza24bUX9wh8fU6IrQ36NRcUJ9Yr1YPhDQTrLmylQH2VWB3l-zKlzUXc/s320/95cad996-4dd4-4031-a08a-5c27710938df.jpeg);
+               background-size:100% 900px;
+           }
+           
+           
+        }
+       
+       .image1{
+           width:100%;
+           height:500px;
+           box-sizing:border-box;
+           float:left;
+           margin-top:20px;
+           background-color:;
+           display:flex
+                 }
+       
+       .img1{
+           width:60%;
+           height:470px;
+           background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUdQXKfdvAjTcv4eQUrkIBSELmFIEvpYQZU8XZxuMD-IjdEMsiFjHnpDThStkkxCbA8h11frxYaeXCf6QaZoD6Ox23D_Bq5Ca7nQnsbsmIF-hNB8YpYUh8reUUR5pe1IxidSd4KydUx_VYa0sbx36fF70DNXWjxGev_Ob-DnzQ3QFTPeitKGCOW2GQY8/s320/b3468045-b064-4b5f-a964-9a8ffb820bbe.jpeg);
+           background-size:100% 450px;
+           border:none;
+           border-radius:5px;
+           margin-left:5px;
+                 }
+       
+       .discover{
+           width:40%;
+           height:470px;
+           box-sizing:border-box;
+          float:left;
+          font-size:3.5vw;
+          font-weight:bold;
+          padding:20px 30px 0px 30px; 
+        color:#9b6aff;
+     
+       }
+       
+       .learn{
+       width:70%;
+       height:80px;
+       font-size:2vw;
+       font-weight:bold;
+           margin:10px 0px 0px 20px;
+           padding:20px;
+          color:white; background-color:black;
+          border:none;
+          border-radius:5px;
+          display:none;
+       }
+       
+       .learn:hover{
+           background-color:red;
+           color:white;
+           transition:0.5s;
+       }
+       
+       .image2{
+           width:100%;
+           height:550px;
+           box-sizing:border-box;
+           margin-top:5px;
+          float:left;
+          display:flex;
+       }
+       
+       .our{
+           width:40%;
+           height:550px;
+           box-sizing:border-box;
+           float:left;
+           font-size:3.5vw;
+           font-weight:bold;
+           color:;
+           padding:0px;
+           padding-left:15px;
+           padding-right:8px;
+           
+       }
+       
+       .more{
+           width:50%;
+           height:70px;
+           padding:0 auto;
+           font-size:2vw;
+           font-weight:bold;
+           color:white;
+           background-color:black;
+           margin:30px 0px 0px 10px;
+           border:none;
+           border-radius:7px;
+       }
+       
+       .more:hover{
+           background-color:red;
+          
+           transition:0.5s;
+       }
+       
+       .img2{
+           width:60%;
+           height:500px;
+           box-sizing:border-box;
+           float:left;
+          margin-right:5px;
+          border:none;
+          border-radius:5px; background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGbc0bNFTu_0ivXf0Z9FhVodsdP5JvfqPuRyF0e2L-UxD24H9H0dmNICjnxaoCdfO2MzMGFIMSJ3X45L8B6WV6MMdvl21MLgQSexzABg5ZTmOxFEkFNPG_TzV8vU2AQvbMFI-kza24bUX9wh8fU6IrQ36NRcUJ9Yr1YPhDQTrLmylQH2VWB3l-zKlzUXc/s320/95cad996-4dd4-4031-a08a-5c27710938df.jpeg);
+           background-size:100% 500px;
+       }
+       
+       .foot{
+           width:100%;
+           height:90px;
+           box-sizing:border-box;
+           float:left;
+          background-color:black;
+          margin:0px;
+       }
+       
+      .copy{
+          color:white;
+          font-size:2vw;
+          font-weight:bold;
+          padding:5px 0px 0px 27%;
+          
+      }
+       
+       .all{
+           color:white;
+           font-size:2vw;
+           font-weight:bold;
+           padding:5px 0px 0px 15%;
+       }
+       
+  
+       @media only screen and (max-width:600px)
+       {
+           .bar{
+               width:100%;
+               height:350px;
+               position:fixed;
+               top:0px;
+           }
+           .home{
+               width:100%;
+               
+           }
+           .home:hover{
+               font-size:25px;
+               padding-top:12px;
+              background-image:linear-gradient(#ff5e00cd,white,green);
+           }
+           
+           .product{
+               width:100%;
+               padding-left:10px;
+                         
+            }
+           
+           .product:hover{
+               font-size:25px;
+               padding-top:12px;
+               background-image:linear-gradient(#ff5e00cd,white,green);
+           }
+           
+          .service{
+              width:100%;
+          }
+           
+           .service:hover{
+               font-size:25px;
+               padding-top:12px;
+               background-image:linear-gradient(#ff5e00cd,white,green);
+           }
+           
+           .about{
+               width:100%;
+               padding-left:10px;
+           }
+           
+           .about:hover{
+               font-size:25px;
+               padding-top:12px;
+               background-image:linear-gradient(#ff5e00cd,white,green);
+           }
+          
+          .contact{
+              width:100%;
+              padding-left:10px;
+          }
+           
+           .contact:hover{
+               font-size:25px;
+               padding-top:12px;
+               background-image:linear-gradient(#ff5e00cd,white,green);
+           }
+           
+           .heading{
+              
+               width:100%;
+               height:110px;
+               margin-top:350px;
+           }
+           
+           .maurya{
+               font-size:6vw;
+               padding:20px 0px 0px 35px;
+  color:#c415ff;    
+               
+           }
+           
+           .where{
+           font-size:3.5vw;
+           padding:6px 0px 0px 60px;
+           color:#2a6dff;
+               
+           }
+           
+           .mrranimation{
+               height:250px;
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDyfQfu9YMRAHcK2TSTWvpmv5VT_GHKC0z38mNm8a_D_ETuWfcZL2_gacM8XnWWkObDnsTRQsOWd2Wtjb7FG5AthhY_TjntlqssVf3ykVRSQoAmxZ8QsvRBxBrwhH-PEEEzlSQKWnOJP5jzaN3VuYTVBCkaW8U_NPZbO6Nq_kU4Yv2j8CvxAaA_YKD5g/s320/istockphoto-939579026-612x612.jpg)  ;
+                background-size:100% 250px;   
+     -webkit-animation:image1 8s linear infinite;
+     -o-animation:image1 8s linear infinite;
+     -moz-animation:image1 8s linear infinite;               animation:Image1 8s linear infinite;
+               
+           }
+           
+           @-webkit-keyframes Image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDyfQfu9YMRAHcK2TSTWvpmv5VT_GHKC0z38mNm8a_D_ETuWfcZL2_gacM8XnWWkObDnsTRQsOWd2Wtjb7FG5AthhY_TjntlqssVf3ykVRSQoAmxZ8QsvRBxBrwhH-PEEEzlSQKWnOJP5jzaN3VuYTVBCkaW8U_NPZbO6Nq_kU4Yv2j8CvxAaA_YKD5g/s320/istockphoto-939579026-612x612.jpg);
+            background-size:100% 250px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh19KtOGZSMoW59YBHCml-F4OK1UUOMyJdP3bOGiHgUEROWsB7BNL1jYBrZXb06MEBc1Vzjum2ZTRypk4X3c4EfwRw66hPfmULJaSSQN4B6HgpPl70Zdzpf5TEvPiwfl0pP4nKefoJv01HdEfqwWgUN7ULjdxVKt4OneGh6gcSO0d5pKQnUi_uq5t_iuSo/s320/360_F_762415513_7UO70SglmvhVtAUVi8PDIiSRGhWY4HmU.webp);
+                background-size:100% 250px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVtp9LrQt81Vj194uh_FyNNOIp1J_uOtP4xvp-N44iWzWdU98Bqj6g0xsGX0ZRw9GZtuffBwl0ZRJnP5VznFUWjfRTVIh8hxK0y4NjM6DELqrA4oAqHJ3Oql47Zp_ixPx-6R3WruF3Pj8tlv8xWfVd7x8tOz2UHQX5b4RYECnfA8ty4z71iPwD8JzESzE/s320/IMG_20240411_205209.jpg);
+               background-size:100% 250px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNvDu0AbCopf1ATy1zyIhqkcCyxZQnUnPDBd1cfhdCsNMFILO4LKNdBpxrgfbsirQBVmYu9ysQrUF9AZyasjxPzfcEjygbwyKB88BSehrBrjhEpHHDNOURvKgVlI_KpZ-M8EoKUN4IxOB5uuzk2STP0klEFFNti5Z2NgcOENRVHFUH2ngbCp538833cx0/s320/IMG_20240411_205157.jpg);
+               background-size:100% 250px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cPIORQpYAmLtk9gnNlts7c4D5BQDsmapeR31OY8u0Ve8Mlzig2C0HrkSSX6ym1wbvEimS7Eswq6vKu5J70bG-S2oiqA6lLTbpSdHtdHY2IE5mOsGkTV5dbdM4rwhryh514qXP3ps5y7nhLiw3vTp_16AyNoz9YdnCBBRExk1Y13OCk-VyvtzBuFVL4E/s320/IMG_20240411_205224.jpg);
+               background-size:100% 250px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkwnChyphenhyphenBaWUi-GzLJhWRNxEPDXal3RzzAL7mO61M5aq8beioXvwHxYNt2bMssDEZqg2gy0kufIEuhWiLP7qqUCQZxW74Fm0QVlyB0gNDPmOCIdTimOO-uNd3AEW01zSkM4ws0jfQ44GAaDv1r8sb9YqISXlFeLBbb_8GSqsbOANzMZ8wt3g4A-EbSJH3w/s320/360_F_736078278_Jzqh8RpZglf4bT0dr1Jxq4njL2WRAzIf.webp);
+               background-size:100% 250px;
+           }
+           
+           
+        }
+           
+           @-o-keyframes Image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDyfQfu9YMRAHcK2TSTWvpmv5VT_GHKC0z38mNm8a_D_ETuWfcZL2_gacM8XnWWkObDnsTRQsOWd2Wtjb7FG5AthhY_TjntlqssVf3ykVRSQoAmxZ8QsvRBxBrwhH-PEEEzlSQKWnOJP5jzaN3VuYTVBCkaW8U_NPZbO6Nq_kU4Yv2j8CvxAaA_YKD5g/s320/istockphoto-939579026-612x612.jpg);
+            background-size:100% 250px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh19KtOGZSMoW59YBHCml-F4OK1UUOMyJdP3bOGiHgUEROWsB7BNL1jYBrZXb06MEBc1Vzjum2ZTRypk4X3c4EfwRw66hPfmULJaSSQN4B6HgpPl70Zdzpf5TEvPiwfl0pP4nKefoJv01HdEfqwWgUN7ULjdxVKt4OneGh6gcSO0d5pKQnUi_uq5t_iuSo/s320/360_F_762415513_7UO70SglmvhVtAUVi8PDIiSRGhWY4HmU.webp);
+                background-size:100% 250px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVtp9LrQt81Vj194uh_FyNNOIp1J_uOtP4xvp-N44iWzWdU98Bqj6g0xsGX0ZRw9GZtuffBwl0ZRJnP5VznFUWjfRTVIh8hxK0y4NjM6DELqrA4oAqHJ3Oql47Zp_ixPx-6R3WruF3Pj8tlv8xWfVd7x8tOz2UHQX5b4RYECnfA8ty4z71iPwD8JzESzE/s320/IMG_20240411_205209.jpg);
+               background-size:100% 250px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNvDu0AbCopf1ATy1zyIhqkcCyxZQnUnPDBd1cfhdCsNMFILO4LKNdBpxrgfbsirQBVmYu9ysQrUF9AZyasjxPzfcEjygbwyKB88BSehrBrjhEpHHDNOURvKgVlI_KpZ-M8EoKUN4IxOB5uuzk2STP0klEFFNti5Z2NgcOENRVHFUH2ngbCp538833cx0/s320/IMG_20240411_205157.jpg);
+               background-size:100% 250px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cPIORQpYAmLtk9gnNlts7c4D5BQDsmapeR31OY8u0Ve8Mlzig2C0HrkSSX6ym1wbvEimS7Eswq6vKu5J70bG-S2oiqA6lLTbpSdHtdHY2IE5mOsGkTV5dbdM4rwhryh514qXP3ps5y7nhLiw3vTp_16AyNoz9YdnCBBRExk1Y13OCk-VyvtzBuFVL4E/s320/IMG_20240411_205224.jpg);
+               background-size:100% 250px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkwnChyphenhyphenBaWUi-GzLJhWRNxEPDXal3RzzAL7mO61M5aq8beioXvwHxYNt2bMssDEZqg2gy0kufIEuhWiLP7qqUCQZxW74Fm0QVlyB0gNDPmOCIdTimOO-uNd3AEW01zSkM4ws0jfQ44GAaDv1r8sb9YqISXlFeLBbb_8GSqsbOANzMZ8wt3g4A-EbSJH3w/s320/360_F_736078278_Jzqh8RpZglf4bT0dr1Jxq4njL2WRAzIf.webp);
+               background-size:100% 250px;
+           }
+           
+           
+        }
+        
+        @-moz-keyframes Image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDyfQfu9YMRAHcK2TSTWvpmv5VT_GHKC0z38mNm8a_D_ETuWfcZL2_gacM8XnWWkObDnsTRQsOWd2Wtjb7FG5AthhY_TjntlqssVf3ykVRSQoAmxZ8QsvRBxBrwhH-PEEEzlSQKWnOJP5jzaN3VuYTVBCkaW8U_NPZbO6Nq_kU4Yv2j8CvxAaA_YKD5g/s320/istockphoto-939579026-612x612.jpg);
+            background-size:100% 250px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh19KtOGZSMoW59YBHCml-F4OK1UUOMyJdP3bOGiHgUEROWsB7BNL1jYBrZXb06MEBc1Vzjum2ZTRypk4X3c4EfwRw66hPfmULJaSSQN4B6HgpPl70Zdzpf5TEvPiwfl0pP4nKefoJv01HdEfqwWgUN7ULjdxVKt4OneGh6gcSO0d5pKQnUi_uq5t_iuSo/s320/360_F_762415513_7UO70SglmvhVtAUVi8PDIiSRGhWY4HmU.webp);
+                background-size:100% 250px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVtp9LrQt81Vj194uh_FyNNOIp1J_uOtP4xvp-N44iWzWdU98Bqj6g0xsGX0ZRw9GZtuffBwl0ZRJnP5VznFUWjfRTVIh8hxK0y4NjM6DELqrA4oAqHJ3Oql47Zp_ixPx-6R3WruF3Pj8tlv8xWfVd7x8tOz2UHQX5b4RYECnfA8ty4z71iPwD8JzESzE/s320/IMG_20240411_205209.jpg);
+               background-size:100% 250px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNvDu0AbCopf1ATy1zyIhqkcCyxZQnUnPDBd1cfhdCsNMFILO4LKNdBpxrgfbsirQBVmYu9ysQrUF9AZyasjxPzfcEjygbwyKB88BSehrBrjhEpHHDNOURvKgVlI_KpZ-M8EoKUN4IxOB5uuzk2STP0klEFFNti5Z2NgcOENRVHFUH2ngbCp538833cx0/s320/IMG_20240411_205157.jpg);
+               background-size:100% 250px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cPIORQpYAmLtk9gnNlts7c4D5BQDsmapeR31OY8u0Ve8Mlzig2C0HrkSSX6ym1wbvEimS7Eswq6vKu5J70bG-S2oiqA6lLTbpSdHtdHY2IE5mOsGkTV5dbdM4rwhryh514qXP3ps5y7nhLiw3vTp_16AyNoz9YdnCBBRExk1Y13OCk-VyvtzBuFVL4E/s320/IMG_20240411_205224.jpg);
+               background-size:100% 250px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkwnChyphenhyphenBaWUi-GzLJhWRNxEPDXal3RzzAL7mO61M5aq8beioXvwHxYNt2bMssDEZqg2gy0kufIEuhWiLP7qqUCQZxW74Fm0QVlyB0gNDPmOCIdTimOO-uNd3AEW01zSkM4ws0jfQ44GAaDv1r8sb9YqISXlFeLBbb_8GSqsbOANzMZ8wt3g4A-EbSJH3w/s320/360_F_736078278_Jzqh8RpZglf4bT0dr1Jxq4njL2WRAzIf.webp);
+               background-size:100% 250px;
+           }
+           
+           
+        }
+           
+          @keyframes Image1 {
+        0%{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjDyfQfu9YMRAHcK2TSTWvpmv5VT_GHKC0z38mNm8a_D_ETuWfcZL2_gacM8XnWWkObDnsTRQsOWd2Wtjb7FG5AthhY_TjntlqssVf3ykVRSQoAmxZ8QsvRBxBrwhH-PEEEzlSQKWnOJP5jzaN3VuYTVBCkaW8U_NPZbO6Nq_kU4Yv2j8CvxAaA_YKD5g/s320/istockphoto-939579026-612x612.jpg);
+            background-size:100% 250px;    
+        }
+            20%{
+                background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh19KtOGZSMoW59YBHCml-F4OK1UUOMyJdP3bOGiHgUEROWsB7BNL1jYBrZXb06MEBc1Vzjum2ZTRypk4X3c4EfwRw66hPfmULJaSSQN4B6HgpPl70Zdzpf5TEvPiwfl0pP4nKefoJv01HdEfqwWgUN7ULjdxVKt4OneGh6gcSO0d5pKQnUi_uq5t_iuSo/s320/360_F_762415513_7UO70SglmvhVtAUVi8PDIiSRGhWY4HmU.webp);
+                background-size:100% 250px;
+                
+            }
+            
+           40%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVtp9LrQt81Vj194uh_FyNNOIp1J_uOtP4xvp-N44iWzWdU98Bqj6g0xsGX0ZRw9GZtuffBwl0ZRJnP5VznFUWjfRTVIh8hxK0y4NjM6DELqrA4oAqHJ3Oql47Zp_ixPx-6R3WruF3Pj8tlv8xWfVd7x8tOz2UHQX5b4RYECnfA8ty4z71iPwD8JzESzE/s320/IMG_20240411_205209.jpg);
+               background-size:100% 250px;
+           }
+           
+           60%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNvDu0AbCopf1ATy1zyIhqkcCyxZQnUnPDBd1cfhdCsNMFILO4LKNdBpxrgfbsirQBVmYu9ysQrUF9AZyasjxPzfcEjygbwyKB88BSehrBrjhEpHHDNOURvKgVlI_KpZ-M8EoKUN4IxOB5uuzk2STP0klEFFNti5Z2NgcOENRVHFUH2ngbCp538833cx0/s320/IMG_20240411_205157.jpg);
+               background-size:100% 250px;
+            
+           }
+           
+           80%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cPIORQpYAmLtk9gnNlts7c4D5BQDsmapeR31OY8u0Ve8Mlzig2C0HrkSSX6ym1wbvEimS7Eswq6vKu5J70bG-S2oiqA6lLTbpSdHtdHY2IE5mOsGkTV5dbdM4rwhryh514qXP3ps5y7nhLiw3vTp_16AyNoz9YdnCBBRExk1Y13OCk-VyvtzBuFVL4E/s320/IMG_20240411_205224.jpg);
+               background-size:100% 250px;
+           }
+           
+           100%{
+               background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkwnChyphenhyphenBaWUi-GzLJhWRNxEPDXal3RzzAL7mO61M5aq8beioXvwHxYNt2bMssDEZqg2gy0kufIEuhWiLP7qqUCQZxW74Fm0QVlyB0gNDPmOCIdTimOO-uNd3AEW01zSkM4ws0jfQ44GAaDv1r8sb9YqISXlFeLBbb_8GSqsbOANzMZ8wt3g4A-EbSJH3w/s320/360_F_736078278_Jzqh8RpZglf4bT0dr1Jxq4njL2WRAzIf.webp);
+               background-size:100% 250px;
+           }
+           
+           
+        }
+       
+           .image1{
+           width:100%;
+          
+               height:620px;
+
+  flex-direction:column;
+  
+            
+            
+           }
+           
+           .img1{
+               width:100%;
+              height:400px;
+         background-size:cover;
+              margin:0 auto;
+     
+           }
+           
+           .discover {
+               width:100%;
+              height:220px;
+              font-size:5vw;
+              padding:10 auto;
+     color:green;
+              
+      
+           }
+           
+          .learn{
+          width:50%;
+          height:50px;
+          padding:10px 0px 10px 0px;
+          margin-left:5px;
+          font-size:4vw;
+              display:block;
+          }
+           
+           .learn:hover{
+               color:black;
+           }
+           
+           .image2{
+               display:none;
+           }
+           
+           .foot{
+               height:calc(100% - 1330px);
+               margin-top:15px;
+           }
+           
+           .all{
+               padding-left:13%;
+           }
+          
+       }
+       
+       @media only screen and (min-width:320px) and (max-width:374px)
+       {
+           .foot{
+               margin:0px;
+           }
+           
+           .copy{
+               padding-left:20%;
+              
+           }
+           
+           .all{
+                     padding-left:1%;
+           }
+       }
+        
+        @media only screen and (max-width:390px) and (min-width:374px)
+        {
+            .all{
+                padding-left:10%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <a href="https://rollercrafter.netlify.app">
+       <div class="home">
+          Home
+          
+       </div>
+       </a>
+       <div class="product">
+           Product
+       </div>
+       <div class="service">
+           Service
+       </div>
+       <div class="about">
+           About Us
+       </div>
+       <div class="contact">
+           Contact Us
+       </div>
+     </div>
+    <div class="heading">
+        <h1 class="maurya">
+            Maurya Rubber Roller
+        </h1>
+        <h1 class="where">
+            Where Quality Meets Innovation
+        </h1>
+    </div>
+    <div class="mrranimation">
+       
+    </div>
+    <div class="image1">
+        <div class="img1">
+            
+        </div>
+        <div class="discover">
+            Discover Maurya Rubber Roller, your trusted partner for top-quality rubber rollers. 
+            <input type="submit" value="Learn More" class="learn">
+        </div>
+    </div>
+    <div class="image2">
+        <div class="our">
+            Our precision-crafted solutions ensure smooth operations and maximum efficiency in your industry.
+            
+            <input type="submit"
+            value="Learn More" class="more">
+        </div>
+        <div class="img2">
+            
+        </div>
+    </div>
+    
+    <footer class="foot">
+        <h2 class="copy"> Copyright &copy; 2024 Maurya Rubber Roller
+        </h2>
+        <h2 class="all">
+        All rights reserved | Privacy Policy | Terms of Use | Contact Us
+ </h2>
+    </footer>
+</body>
+</html>
